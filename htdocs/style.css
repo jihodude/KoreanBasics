@@ -1,0 +1,92 @@
+#onetag{
+  width:auto;
+  text-align: center;
+  margin:0px 0px 0px 225px;
+  word-break: break-word;
+  color: FireBrick;
+  font-family:Verdana;
+  height:0px;
+  font-size: 28px;
+  border-bottom:1px solid gray
+
+}
+#twotag{
+font-size:28px;
+font-family:Verdana;
+padding:20px 0px 0px 0px;
+}
+
+.allnumb{
+  color:FireBrick;
+  font-size:15px;
+}
+#olol>li{
+  color:blue;
+  font-size:17px;
+}
+#List{
+  border-right:1px solid gray;
+  width:225px;
+  margin:0px;
+  font-size: 25px;
+}
+#grid{
+  display: grid;
+  grid-template-columns:225px 1fr;
+}
+#des {
+  padding-top:10px;
+  margin:0px;
+  text-align: center;
+}
+#whatkorean{
+  font-size:17px;
+  padding:30px 30px 0 30px;
+  font-family:georgia;
+}
+#marginplz{
+  margin:0px 150px 0px 150px;
+  background:white;
+}
+#bodyis{
+  background: #8b8b8b;
+  margin:0px;
+}
+#disqus_thread{
+  padding: 100px;
+}
+.urul{
+  padding-left:10px;
+}
+#topimg{
+  width:100%;
+  height:200px;
+}
+@media (max-width:1075px) {
+  #whatkorean{
+    margin-top:30px;
+    padding:0px 15px 0px 15px;
+    font-size: 17px;
+  }
+  #marginplz{
+    margin:0px;
+  }
+  #List{
+    border-right:1px solid gray;
+    border-top:1px solid gray;
+    width:225px;
+    margin:0px;
+    font-size: 25px;
+    padding:0px;
+  }
+  #onetag{
+    font-size:25;
+  }
+@media (max-width:850px) {
+  #marginplz{
+    margin:0px;
+  }
+  #topimg{
+    height:100px;
+  }
+}
